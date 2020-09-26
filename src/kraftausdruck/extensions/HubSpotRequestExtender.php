@@ -53,7 +53,7 @@ class HubSpotRequestExtender extends DataExtension {
 
 	public function contentControllerInit($controller) {
 		$accountId = $this->owner->SiteConfig->HubSpotAccountID;
-		if(isset($accountId) && is_numeric($accountId)) {
+		if (isset($accountId) && is_numeric($accountId) && $this->owner->ID !== -3646512) {
 			Requirements::insertHeadTags(sprintf(
 				'<script type=\'text/javascript\' id=\'hs-script-loader\' async defer src=\'https://js.hs-scripts.com/%s.js\'></script>',
 				$accountId
