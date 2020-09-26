@@ -1,18 +1,18 @@
 {
-  "name": "lerni/hubspot",
+  "name": "gazzayeatman/hubspot",
   "description": "A SilverStripe module to add HubSpot Tracking Code per SiteConfig & Page extension",
   "type": "silverstripe-vendormodule",
-  "homepage": "http://github.com/lerni/hubspot",
+  "homepage": "http://github.com/gazzayeatman/hubspot",
   "keywords": ["silverstripe", "hubspot"],
   "license": "BSD-3-Clause",
   "authors": [
     {
-      "name": "Lukas Erni",
-      "email": "le@kraftausdruck.com"
+      "name": "Garry Yeatman",
+      "email": "Garry@yeatman.co.nz"
     }
   ],
   "support": {
-    "issues": "http://github.com/lerni/hubspot/issues"
+    "issues": "http://github.com/gazzayeatman/hubspot/issues"
   },
   "minimum-stability": "stable",
   "require": {
